@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(228,131,74);
+  background: linear-gradient(90deg, rgba(228,131,74,1) 0%, rgba(178,17,230,1) 100%);
+}
+button {
+  font-family: 'Oswald', sans-serif;
+  background: rgba(178,17,230,1) 100%;
+  color: rgba(228,131,74,1) 0%;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 2em;
+  transition: all 0.15s;
+}
+
+button:hover {
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
